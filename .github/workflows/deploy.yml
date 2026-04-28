@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           # Removed the cache line to avoid the error you saw
 
       - name: Install dependencies
